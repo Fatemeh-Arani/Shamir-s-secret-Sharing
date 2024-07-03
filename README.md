@@ -9,4 +9,5 @@ This is a simple implementation of secret sharing.
 Approach:The main idea behind the Shamir’s Secret Sharing Algorithm lies behind the concept that for the given t points we can find a random polynomial equation with the degree (t – 1).
 ## And a program that receives t, n, p, y1, y2, ..., yt and returns the secret s.
   In order to reconstruct the given polynomial back, the Lagrange basis Polynomial is used.
+  
   ![image](https://github.com/Fatemeh-Arani/Shamir-s-secret-Sharing/assets/87821575/074040df-e74b-432a-bb2a-982b2fc16b37)
